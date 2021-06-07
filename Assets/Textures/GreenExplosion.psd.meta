@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: 12a66dffbc14f24439c6d4f0ceba0b5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2078839349445575902
+    second: GreenExplosion_0
+  - first:
+      213: -5273749234103666592
+    second: GreenExplosion_1
+  - first:
+      213: 4043877710114340174
+    second: GreenExplosion_2
+  - first:
+      213: -8129776170431305195
+    second: GreenExplosion_3
+  - first:
+      213: -3178831252059075485
+    second: GreenExplosion_4
+  - first:
+      213: -7775867649899745640
+    second: GreenExplosion_5
+  - first:
+      213: 5641046330132894841
+    second: GreenExplosion_6
+  - first:
+      213: 8614007369704982915
+    second: GreenExplosion_7
+  - first:
+      213: -815379843800868669
+    second: GreenExplosion_8
+  - first:
+      213: 7218106897139335362
+    second: GreenExplosion_9
+  - first:
+      213: 903254317365886692
+    second: GreenExplosion_10
+  - first:
+      213: -4752541460517559403
+    second: GreenExplosion_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreenExplosion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604.6666
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b313730aa7623e0800000000000000
+      internalID: -2078839349445575902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenExplosion_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 604.6666
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06833ca5301efc6b0800000000000000
+      internalID: -5273749234103666592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenExplosion_2
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 604.6666
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d3c7a1a5dbe1830800000000000000
+      internalID: 4043877710114340174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenExplosion_3
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 604.6666
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51aa10a75ab3d2f80800000000000000
+      internalID: -8129776170431305195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenExplosion_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302.66666
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ccb1481d582e3d0800000000000000
+      internalID: -3178831252059075485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenExplosion_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 302.66666
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e264b1291961490800000000000000
+      internalID: -7775867649899745640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenExplosion_6
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 302.66666
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974971defb5094e40800000000000000
+      internalID: 5641046330132894841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenExplosion_7
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 302.66666
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389ccd3501a1b8770800000000000000
+      internalID: 8614007369704982915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenExplosion_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.6666565
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c85c352a503fa4f0800000000000000
+      internalID: -815379843800868669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenExplosion_9
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0.6666565
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c089c2dafddb2460800000000000000
+      internalID: 7218106897139335362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenExplosion_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0.6666565
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee7e681401098c00800000000000000
+      internalID: 903254317365886692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenExplosion_11
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 0.6666565
+        width: 283.5
+        height: 302.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593e881c8b49b0eb0800000000000000
+      internalID: -4752541460517559403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
