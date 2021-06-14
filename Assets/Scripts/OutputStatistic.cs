@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class OutputStatistic : MonoBehaviour
 {
     public Text MaxHeightText;
+    public TextMeshPro FrameMaxHeigthText;
     public Text CurrentHeightText;
     public Text TotalMovementText;
 
@@ -16,6 +18,7 @@ public class OutputStatistic : MonoBehaviour
     public void WriteMaxHeight(int value)
     {
         MaxHeightText.text = $"{value} m";
+        FrameMaxHeigthText.text = $"{value} m";
     }
     public void WriteHeight(int value)
     {

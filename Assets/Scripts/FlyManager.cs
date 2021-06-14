@@ -5,7 +5,8 @@ using UnityEngine;
 public enum FlyDirection
 {
     Up,
-    Down
+    Down,
+    None
 }
 public class FlyManager : MonoBehaviour
 {
@@ -20,7 +21,8 @@ public class FlyManager : MonoBehaviour
 
     public OutputStatistic OutputStatistic;
 
-    private int _maxHeight;
+    public TopScore TopScore;
+
     private int _lastHeight = 0;
     private int _totalMovement = 0;
 
@@ -47,9 +49,6 @@ public class FlyManager : MonoBehaviour
 
         if (height == 0)
             MoveWallsToZero();
-
-        if (_maxHeight < height)
-            SetMaxHeight(height);
 
         int deltaHeight = height - _lastHeight;
 
@@ -90,6 +89,9 @@ public class FlyManager : MonoBehaviour
             {
                 ShiftIndexes();
 
+                if (TopScore.MaxHeight < height)
+                    TopScore.ChangeMaxHeight(height);
+
                 _currentDirection = FlyDirection.Down;
             }
 
@@ -120,12 +122,6 @@ public class FlyManager : MonoBehaviour
     {
         _totalMovement = value;
         OutputStatistic.WriteTotalMovement(_totalMovement);
-    }
-
-    private void SetMaxHeight(int height)
-    {
-        _maxHeight = height;
-        OutputStatistic.WriteMaxHeight(_maxHeight);
     }
 
     private void Reset()
