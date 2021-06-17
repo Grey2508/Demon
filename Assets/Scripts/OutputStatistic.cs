@@ -18,7 +18,7 @@ public class OutputStatistic : MonoBehaviour
     public void WriteMaxHeight(int value)
     {
         MaxHeightText.text = $"{value} m";
-        FrameMaxHeigthText.text = $"{value} m";
+        FrameMaxHeigthText.text = $"New best: {value} m";
     }
     public void WriteHeight(int value)
     {
